@@ -3,7 +3,25 @@
 		"Agent Skills": {
 			"url": "https://agentskills.io/mcp",
 			"type": "http"
-		}
+		},
+		"timezone server": {
+			"command": "uv",
+			"args": [
+				"--directory",
+				"/Users/mosesgameli/MTN/_/myagentskills",
+				"run",
+				"main.py"
+			],
+			"type": "stdio"
+		},
+		// "my-timezone-server": {
+		// 	"type": "stdio",
+		// 	"command": "uv",
+		// 	"args": [
+		// 		"run",
+		// 		"main.py"
+		// 	]
+		// }
 	},
 	"inputs": []
 }
